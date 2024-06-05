@@ -46,7 +46,7 @@ public class CalculatriceSimple extends JFrame{
 		model=mc;
 		setJMenuBar(menu);
         setMinimumSize(new Dimension(300,200));
-        setResizable(false);
+        setResizable(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		menu.add(menuEdit);
